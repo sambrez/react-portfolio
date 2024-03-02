@@ -1,9 +1,16 @@
+import Profile from '../assets/IMG_2186.jpg';
+
 function About () {
     return (
         <>
-        <h1>
-            TEST
-        </h1>
+        <h2>Sam Breslin</h2>
+        <p>Web Developer</p>
+        <div>
+            <img src={Profile}></img>
+        </div>
+        <div>
+            <p></p>
+        </div>
         </>
     )
 }

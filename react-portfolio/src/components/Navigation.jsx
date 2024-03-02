@@ -7,13 +7,6 @@ function Navigation () {
         <ul>
             <li>
                 <Link
-                to="/"
-                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                >
-                </Link>
-            </li>
-            <li>
-                <Link
                 to="/About"
                 className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
                 >
