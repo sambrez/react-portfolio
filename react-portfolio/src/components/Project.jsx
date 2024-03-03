@@ -1,20 +1,20 @@
-function Project ({projects: { image, title, link, repo } }) {
 
+
+function Project(props) { 
+  const project = props;
+  console.log(project);
   return (
-    <>
-      <img src={image}>
-              <span>
-                <h4>{title}</h4>
-                <p>
-                  <a href={link}>Application</a>
-                </p>
-                <p>
-                <a href={repo}>Repository</a>
-                </p>
-              </span>
-            </img>
-    </>
-  );
-}
+      <>
+        <div>
+          <img src={project.project.image}/>
+          <h2>{project.project.title}</h2>
+          <a href={project.project.link}>APP</a>
+          <a href={project.project.repo}>REPO</a>
+        </div>
+      </>
+    );
+  }
+ 
+
 
 export default Project;
