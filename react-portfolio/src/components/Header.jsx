@@ -1,12 +1,15 @@
 import Navigation from './Navigation';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Header () {
     return (
-        <header>
-            <h1>SAM BRESLIN</h1>
+       <div id="top" className='container-fluid'>
+       <header className='row navbar-header'>
+            <h1 className="col">SAM BRESLIN</h1>
             <Navigation />
         </header>
-        
+        </div> 
     )
 }
 

@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  width: 100vw;
+  position: relative;
+  min-height: 100vh;
 }
 
 .logo {
@@ -40,3 +42,23 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e1e3e1;
+}
+
+#top {
+  margin: 0;
+  padding: 5px;
+  min-width: 100vw;
+  border-bottom: solid 0.3em rgb(31, 30, 29);
+}
+
+#main {
+  margin: 100px;
+}
+

@@ -1,0 +1,28 @@
+#navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  position: relative;
+  height: var(--header-height);
+  margin: 1rem;
+  padding-right: 35px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 24px;
+  border: 5px;
+}
+
+#nav-one {
+  border-right: solid 0.1em rgb(31, 30, 29);
+}
+
+#nav-two {
+  border-right: solid 0.1em rgb(31, 30, 29);
+}
+
+#nav-three {
+  border-right: solid 0.1em rgb(31, 30, 29);
+}

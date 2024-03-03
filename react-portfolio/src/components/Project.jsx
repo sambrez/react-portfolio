@@ -1,5 +1,3 @@
-
-
 function Project(props) { 
   const project = props;
   console.log(project);

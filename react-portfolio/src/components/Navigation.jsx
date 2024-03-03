@@ -1,44 +1,57 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
-function Navigation () {
-    const currentPage = useLocation().pathname;
+import "../styles/Navigation.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-    return (
-        <ul>
-            <li>
-                <Link
-                to="/About"
-                className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
-                >
-                About Me
-                </Link>
-            </li>
-            <li>
-                <Link
-                to="/Portfolio"
-                className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
-                >
-                Portfolio
-                </Link>
-            </li>
-            <li>
-                <Link
-                to="/Resume"
-                className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
-                >
-                Resume
-                </Link>
-            </li>
-            <li>
-                <Link
-                to="/Contact"
-                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-                >
-                Contact
-                </Link>
-            </li>
-        </ul>
-    );
+function Navigation() {
+  const currentPage = useLocation().pathname;
+
+  return (
+    <nav className="col">
+      <ul id="navigation">
+        <li id="nav-one">
+          <Link
+            to="/About"
+            className={
+              currentPage === "/About" ? "nav-link active" : "nav-link"
+            }
+          >
+            About Me
+          </Link>
+        </li>
+        <li id="nav-two">
+          <Link
+            to="/Portfolio"
+            className={
+              currentPage === "/Portfolio" ? "nav-link active" : "nav-link"
+            }
+          >
+            Portfolio
+          </Link>
+        </li>
+        <li id="nav-three">
+          <Link
+            to="/Resume"
+            className={
+              currentPage === "/Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
+          </Link>
+        </li>
+        <li id="nav-four">
+          <Link
+            to="/Contact"
+            className={
+              currentPage === "/Contact" ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Navigation;
