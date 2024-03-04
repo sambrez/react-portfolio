@@ -3,13 +3,19 @@ function Footer() {
     <footer className="container" id="footer">
       <div id="bottom" className='row'>
         <p className='col-4' id="footer-one">
-          <a href='https://github.com/sambrez'>GitHub</a>
+          <a href='https://github.com/sambrez'>
+          <img id="github" src="../../public/img/github.svg" />
+          </a>
         </p>
         <p  className='col-4' id="footer-two">
-          <a>LinkedIn</a>
+          <a>
+          <img id="linkedin" src="../../public/img/linkedin.svg" />
+          </a>
         </p>
         <p  className='col-4' id="footer-three">
-          <a>Instagram</a>
+          <a>
+          <img id="instagram" src="../../public/img/instagram.svg" />
+          </a>
         </p>
       </div>
     </footer>
