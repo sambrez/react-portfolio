@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 
-import "../styles/Navigation.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/Navigation.css";
 
 function Navigation() {
   const currentPage = useLocation().pathname;

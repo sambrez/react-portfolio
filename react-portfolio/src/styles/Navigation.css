@@ -4,7 +4,7 @@
   justify-content: right;
   position: relative;
   height: var(--header-height);
-  margin: 1rem;
+  margin: 2px;
   padding-right: 35px;
 }
 
