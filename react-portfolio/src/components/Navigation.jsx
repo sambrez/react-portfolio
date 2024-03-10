@@ -8,8 +8,8 @@ function Navigation() {
 
   return (
     <nav className="col">
-      <ul id="navigation">
-        <li id="nav-one">
+      <ul className="row" id="navigation">
+        <li className="col-lg" id="nav-one" >
           <Link
             to="/About"
             className={
@@ -19,7 +19,7 @@ function Navigation() {
             About Me
           </Link>
         </li>
-        <li id="nav-two">
+        <li className="col-lg" id="nav-two">
           <Link
             to="/Portfolio"
             className={
@@ -29,7 +29,7 @@ function Navigation() {
             Portfolio
           </Link>
         </li>
-        <li id="nav-three">
+        <li className="col-lg" id="nav-three">
           <Link
             to="/Resume"
             className={
@@ -39,7 +39,7 @@ function Navigation() {
             Resume
           </Link>
         </li>
-        <li id="nav-four">
+        <li className="col-lg" id="nav-four">
           <Link
             to="/Contact"
             className={

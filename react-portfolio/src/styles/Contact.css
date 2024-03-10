@@ -1,0 +1,16 @@
+#reach {
+    padding-bottom: 30px;
+}
+
+#form {
+    border: solid 1px rgb(106, 134, 106);
+    border-radius: 25px;
+    padding: 30px
+}
+
+.label {
+    font-style: italic;
+    font-weight: 40px;
+    font-size: 22px;
+    padding: 5px;
+}

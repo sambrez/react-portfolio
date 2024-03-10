@@ -6,7 +6,7 @@ function Header () {
     return (
        <div id="top" className='container-fluid'>
        <header className='row navbar-header'>
-            <img id="laptop" src="../../public/img/laptop.svg" />
+            <img id="laptop" src="../../img/laptop.svg" />
             <h1 id='title' className="col">SAM BRESLIN</h1>
             <Navigation />
         </header>

@@ -1,12 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "../styles/Resume.css";
+import resume from "../assets/resume.pdf";
 
 function Resume() {
   return (
     <>
-      <h2>
+      <h2 id='download'>
         Download my{" "}
         <a
-          href="https://drive.google.com/file/d/1cffRW8koTycghkFh3qqQ9Ietz7TTk5hP/view?usp=sharing"
+          href={resume}
           download
         >
           resume!
@@ -14,37 +16,39 @@ function Resume() {
       </h2>
       <table className="table">
         <thead>
-          <tr>
-            <th scope="col">Front-End Proficiencies</th>
+          <tr className='one'>
+            <th  className='front' scope="col">Front-End Proficiencies</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row"></th>
-            <td>HTML</td>
-            <td>CSS</td>
-            <td>JavaScript</td>
-            <td>JQuery</td>
-            <td>BootStrap</td>
-            <td>React</td>
+            <th className='list' scope="row">
+            <td className='col-2'>HTML</td>
+            <td className='col-2'>CSS</td>
+            <td className='col-2'>JavaScript</td>
+            <td className='col-2'>JQuery</td>
+            <td className='col-2'>BootStrap</td>
+            <td className='col-2'>React</td>
+            </th> 
           </tr>
         </tbody>
       </table>
       <br/>
       <table className="table">
         <thead>
-          <tr>
-            <th scope="col">Back-End Proficiencies</th>
+          <tr className='one'>
+            <th  className='front' scope="col">Back-End Proficiencies</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row"></th>
-            <td>APIs</td>
-            <td>Node.js</td>
-            <td>Express.js</td>
-            <td>MySQL & Sequelize</td>
-            <td>MongoDB & Mongoose</td>
+            <th className='list' scope="row">
+            <td className='col-2'>APIs</td>
+            <td className='col'>Node.js</td>
+            <td className='col'>Express.js</td>
+            <td className='col'>MySQL & Sequelize</td>
+            <td className='col'>MongoDB & Mongoose</td>
+            </th> 
           </tr>
         </tbody>
       </table>
