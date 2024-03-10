@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Profile from "../assets/IMG_2186.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/AboutMe.css";

@@ -8,8 +8,8 @@ function Navigation() {
 
   return (
     <nav className="col">
-      <ul className="row" id="navigation">
-        <li className="col-lg" id="nav-one" >
+      <ul className="row nav nav-tabs" id="navigation">
+        <li className="col-lg nav-item" id="nav-one" >
           <Link
             to="/About"
             className={
