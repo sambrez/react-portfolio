@@ -9,3 +9,8 @@
 .navbar-toggler {
     margin-right: 25px;
 }
+
+.navbar-collapse {
+    max-height: 75vh; 
+    overflow-y: auto; 
+  

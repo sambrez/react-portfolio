@@ -6,32 +6,36 @@ import "../styles/AboutMe.css";
 function About() {
   return (
     <div className="container">
-      <h2 id="name">Sam Breslin</h2>
+      <h2 id="name">Samuel Breslin</h2>
       <p id="web">Web Developer</p>
       <div id="writing" className="row">
         <div className="col">
-          <img src={Profile}></img>
+          <img src={Profile} className="img-fluid" alt="Profile"></img>
         </div>
         <div className="col container">
             <div id='space' className='row'></div>
           <p className="center row">
-            Hi there! I'm Sam, a 29 year-old from New England. I have a
+            Hey there! I'm Sam, a 29 year-old from New England. I have a
             Bachelor's of Science in Sustainable Agriculture & Food Systems from
             the University of New Hampshire and have spent the last six years
-            working as a winemaker.{" "}
+            working as a winemaker.
           </p>
           <p className="center row">
-            Working for a small business has meant that I have had the
-            opportunity to take on projects well outside my winemaking and
-            vineyard management responsibilities. Many of the those projects
-            have revolved around web design, eCommerce, and database management
-            which sparked an insatiable curiosity in the world of web
+            Working for a small business means I have had numerous
+            opportunities to take on projects well outside my winemaking and
+            vineyard management responsibilities. Many of the those projects 
+            involved web design, eCommerce, and data management
+            which sparked an insatiable interest in the world of web
             development.
           </p>
           <p className="center row">
-            I have spent the last six months intensely studing the basics of web
+            I have spent the last six months intensely studying the basics of web
             design and development and greatly look forward to continuing my
-            education and exploring a new field of work and study!
+            education and exploring a new field of work and study. The wine industry 
+            to the tech industry might seem like a sharp pivot, but hey, six years 
+            ago I wasn't a wine drinker either! More than anything I believe in 
+            chasing passions, tackling challenges, and embacing my natural sense 
+            of curiosity.
           </p>
         </div>
       </div>

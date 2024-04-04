@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
-import "../styles/Navigation.css"; 
+import "../styles/Navigation.css";
 
-function Navigation() {
+function Navigation({ onLinkClick }) {
   const currentPage = useLocation().pathname;
 
   return (
@@ -10,6 +10,7 @@ function Navigation() {
         <Link
           to="/About"
           className={currentPage === "/About" ? "nav-link active" : "nav-link"}
+          onClick={onLinkClick} // Close the navbar when a link is clicked
         >
           About Me
         </Link>
@@ -17,9 +18,8 @@ function Navigation() {
       <li className="nav-item">
         <Link
           to="/Portfolio"
-          className={
-            currentPage === "/Portfolio" ? "nav-link active" : "nav-link"
-          }
+          className={currentPage === "/Portfolio" ? "nav-link active" : "nav-link"}
+          onClick={onLinkClick} // Close the navbar when a link is clicked
         >
           Portfolio
         </Link>
@@ -28,6 +28,7 @@ function Navigation() {
         <Link
           to="/Resume"
           className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}
+          onClick={onLinkClick} // Close the navbar when a link is clicked
         >
           Resume
         </Link>
@@ -35,9 +36,8 @@ function Navigation() {
       <li className="nav-item">
         <Link
           to="/Contact"
-          className={
-            currentPage === "/Contact" ? "nav-link active" : "nav-link"
-          }
+          className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}
+          onClick={onLinkClick} // Close the navbar when a link is clicked
         >
           Contact
         </Link>

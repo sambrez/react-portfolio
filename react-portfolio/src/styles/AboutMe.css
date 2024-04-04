@@ -12,6 +12,7 @@ img {
     border-radius: 50%;
     width: auto;
     height: auto;
+    min-width: 200px;
 }
 
 #writing {

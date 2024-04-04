@@ -13,3 +13,8 @@ nav li {
   border-right: none;
 }
 
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-item {
+    border-right: none; /* Remove right border on smaller screens */
+  }
+}
