@@ -1,16 +1,29 @@
 #title {
- font-size: 40px;
+  font-size: 40px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.sam {
+  font-weight: 300;
+}
+
+.breslin {
+  font-weight: 700;
 }
 
 #navbarNav {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .navbar-toggler {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .navbar-collapse {
-    max-height: 75vh; 
-    overflow-y: auto; 
-  
+  max-height: 75vh;
+  overflow-y: auto;
+}

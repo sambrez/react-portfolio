@@ -2,21 +2,23 @@ import Navigation from "./Navigation";
 import { useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Header.css";
+import "../index.css";
 
 function Header() {
   const buttonRef = useRef(null);
 
   const handleLinkClick = () => {
-    // Check if the button ref is set
     if (buttonRef.current) {
-      // Programmatically trigger a click event on the button
       buttonRef.current.click();
     }
   };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <h1 className="navbar-brand" id="title">SAM BRESLIN</h1>
+      <h1 className="navbar-brand" id="title">
+        <span className="sam">SAM</span>{" "}
+        <span className="breslin">BRESLIN</span>
+      </h1>
       <button
         ref={buttonRef}
         className="navbar-toggler"
