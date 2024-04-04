@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  height: auto;
   padding-top: 56px;
   font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
@@ -95,7 +96,7 @@ button:focus-visible {
 }
 
 #bottom {
-  border-top: solid 0.3em rgb(31, 30, 29);
+  border-top: solid 0.05em rgb(31, 30, 29);
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 15px;
@@ -111,16 +112,13 @@ button:focus-visible {
   margin-top: 16px;
  }
 
-footer p {
-  padding: 10px;
-}
 
 #github {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 #linkedin {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
