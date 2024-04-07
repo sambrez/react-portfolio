@@ -59,6 +59,9 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+  aspect-ratio: 3/2;
+  max-width: 1200px;
+  max-height: 825px;
 }
 
 #div2 {
