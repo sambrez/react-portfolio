@@ -34,7 +34,7 @@ function About() {
             industry to the tech industry might seem like a sharp pivot, but
             hey, six years ago I wasn't a wine drinker either! More than
             anything I believe in chasing passions, tackling challenges, and
-            embacing my natural sense of curiosity.
+            embracing my natural sense of curiosity.
           </p>
         </div>
       </div>
