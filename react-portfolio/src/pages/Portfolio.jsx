@@ -5,7 +5,6 @@ import img3 from "../assets/cosmic-counsel.png";
 import img4 from "../assets/weather-dash.png";
 import img5 from "../assets/note-taker.png";
 import img6 from "../assets/code-quiz.png";
-import img7 from "../assets/lit-voyagers.png"
 
 import "../styles/Portfolio.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -52,13 +51,6 @@ const projects = [
     title: "Coding Quiz",
     link: "https://sambrez.github.io/coding-bootcamp-student-quiz",
     repo: "https://github.com/sambrez/coding-bootcamp-student-quiz",
-  },
-  {
-    id: 7,
-    image: img7,
-    title: "Literary Voyagers",
-    link: "https://literary-voyagers-5d41db9d0f86.herokuapp.com",
-    repo: "https://github.com/sambrez/Literary-Voyagers",
   },
 ];
 
