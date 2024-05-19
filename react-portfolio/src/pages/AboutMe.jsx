@@ -1,24 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
-import Profile1 from "../assets/IMG_2.jpg";
-import Profile2 from "../assets/IMG_1.jpg";
+import Profile from "../assets/block-image.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/AboutMe.css";
 
 function About() {
   return (
     <div className="container">
-      <h2 id="name">Samuel Breslin</h2>
-      <p id="web">Web Developer</p>
       <div id="writing" className="row">
         <div className="col" id="image-stack">
-          <div className="image-stack__item image-stack__item-top">
-            <img src={Profile1} className="img-fluid" alt="ProfilePic1"></img>
-          </div>
-          <div className="image-stack__item image-stack__item-bottom">
-            <img src={Profile2} className="img-fluid" alt="ProfilePic2"></img>
-          </div>
+          <img src={Profile} className="img-fluid" alt="Profile"></img>
         </div>
         <div id="paragraphs" className="col container">
+          <h2 id="name">Samuel Breslin</h2>
+          <p id="web">Web Developer</p>
           <div id="space"></div>
           <p id="pOne" className="center row">
             Hey there! I'm Sam, a 29 year-old from New England. I have a
