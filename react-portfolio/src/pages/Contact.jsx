@@ -5,7 +5,8 @@ function Contact() {
   return (
     <>
       <h2 id='reach'>Reach Out!</h2>
-      <form id="form">
+      <form id="form" name="contact" action="/contact" method="post">
+        <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
         <label className='label'>NAME:</label>
         <input className="form-control" type="text" name="name" required />
