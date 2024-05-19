@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import Profile from "../assets/IMG_2186.jpg";
+import Profile1 from "../assets/IMG_2.jpg";
+import Profile2 from "../assets/IMG_1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/AboutMe.css";
 
@@ -9,8 +10,13 @@ function About() {
       <h2 id="name">Samuel Breslin</h2>
       <p id="web">Web Developer</p>
       <div id="writing" className="row">
-        <div className="col">
-          <img src={Profile} className="img-fluid" alt="Profile"></img>
+        <div className="col" id="image-stack">
+          <div className="image-stack__item image-stack__item-top">
+            <img src={Profile1} className="img-fluid" alt="ProfilePic1"></img>
+          </div>
+          <div className="image-stack__item image-stack__item-bottom">
+            <img src={Profile2} className="img-fluid" alt="ProfilePic2"></img>
+          </div>
         </div>
         <div id="paragraphs" className="col container">
           <div id="space"></div>
