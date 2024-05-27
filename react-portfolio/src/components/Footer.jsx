@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="container" id="footer">
+    <footer id="footer">
       <div id="bottom" className='row'>
         <p className='col' id="footer-one">
           <a href='https://github.com/sambrez'>
@@ -8,7 +8,7 @@ function Footer() {
           </a>
         </p>
         <p className='col' id="footer-two">
-          <a href='https://www.linkedin.com'>
+          <a href='https://www.linkedin.com/in/samuelBreslin/'>
           <img id="linkedin" src="../../img/linkedin.svg" />
           </a>
         </p>
