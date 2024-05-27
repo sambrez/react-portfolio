@@ -1,11 +1,13 @@
 #name {
   font-size: 36px;
+  color: #2D3047;
 }
 
 #web {
   font-style: italic;
   font-size: 24px;
   margin-bottom: 30px;
+  color: #2D3047;
 }
 
 img {
@@ -39,6 +41,7 @@ img {
 #paragraphs {
   margin-top: 20px;
   flex: 1;
+  color: #2D3047;
 }
 
 .center {

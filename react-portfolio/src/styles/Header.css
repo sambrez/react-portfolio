@@ -5,14 +5,19 @@
   font-weight: 800;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 .sam {
   font-weight: 300;
+  color: #2D3047;
 }
 
 .breslin {
   font-weight: 700;
+  color: #2D3047;
 }
 
 #navbarNav {

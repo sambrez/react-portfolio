@@ -1,11 +1,13 @@
 #reach {
     padding-bottom: 30px;
+    color: #2D3047;
 }
 
 #form {
-    border: solid 1px rgb(106, 134, 106);
+    border: solid 1px #2D3047;
     border-radius: 25px;
-    padding: 30px
+    padding: 30px;
+    color: #2D3047;
 }
 
 .label {
@@ -13,4 +15,9 @@
     font-weight: 40px;
     font-size: 22px;
     padding: 5px;
+}
+
+#submit {
+    background-color: #2D3047;
+    color: #E0CA3C;
 }

@@ -8,10 +8,11 @@ function Resume() {
       <h2 id='download'>
         Download my{" "}
         <a
+          id="resume"
           href={resume}
           download
         >
-          resume!
+          resume
         </a>
       </h2>
       <div className="table-responsive">

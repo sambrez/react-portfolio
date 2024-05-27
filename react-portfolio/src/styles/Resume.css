@@ -4,13 +4,19 @@
   margin-left: 20px;
   margin-bottom: 70px;
   padding: 20px;
-  background-color: rgb(106, 134, 106);
+  background-color: #2D3047;
   border-radius: 20px;
+  color: white;
 }
 
 #download a {
   text-decoration: none;
-  color: white;
+  color: #E0CA3C;
+}
+
+#resume {
+  font-style: italic;
+  font-weight: 300;
 }
 
 .front {

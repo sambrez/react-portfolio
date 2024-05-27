@@ -1,3 +1,4 @@
+import Paint from "../assets/paint.png"
 import Navigation from "./Navigation";
 import { useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +16,7 @@ function Header() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <h1 className="navbar-brand" id="title">
+      <h1 className="navbar-brand" id="title" style={{backgroundImage: `url(${Paint})`}}>
         <span className="sam">SAM</span>{" "}
         <span className="breslin">BRESLIN</span>
       </h1>
