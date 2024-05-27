@@ -84,10 +84,14 @@ button:focus-visible {
 }
 
 #footer {
+  position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 2.5rem;
+  bottom: 0;
+  left: 0;
 }
 
 #bottom {
@@ -102,7 +106,7 @@ button:focus-visible {
 #footer-one,
 #footer-two {
   margin-top: 16px;
-  flex: 1; /* Distribute available space equally between footer-one and footer-two */
+  flex: 1; 
   display: flex;
   justify-content: center;
 }
@@ -111,7 +115,7 @@ button:focus-visible {
 #linkedin {
   width: 40px;
   height: 40px;
-  align-self: center; /* Center the image vertically */
+  align-self: center; 
 }
 
 @media (max-width: 480px) {
@@ -122,7 +126,7 @@ button:focus-visible {
 
 @media (max-width: 1648px) {
   #bottom {
-    flex-wrap: nowrap; /* Prevent flex items from wrapping to the next line */
+    flex-wrap: nowrap; 
   }
 
   #footer-one {
@@ -137,8 +141,8 @@ button:focus-visible {
 
   #github,
   #linkedin {
-    max-width: 50%; /* Each image can take up to 50% of the container width */
-    flex: 1; /* Allow images to grow and shrink */
+    max-width: 50%; 
+    flex: 1;
   }
 }
 
