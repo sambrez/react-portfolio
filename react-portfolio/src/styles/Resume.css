@@ -64,3 +64,9 @@
   justify-content: center;
   word-break: break-word; 
 }
+
+@media (max-width: 500px) {
+  #download {
+    margin-top: 60px; 
+  }
+}

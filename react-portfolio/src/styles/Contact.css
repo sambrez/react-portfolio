@@ -21,3 +21,9 @@
     background-color: #2D3047;
     color: #E0CA3C;
 }
+
+@media (max-width: 500px) {
+    #reach {
+      margin-top: 40px; 
+    }
+  }
