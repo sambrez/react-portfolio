@@ -68,3 +68,8 @@ body {
   padding: 20px; 
 }
 
+@media (max-width: 500px) {
+  #main {
+    margin: 30px; 
+  }
+}
